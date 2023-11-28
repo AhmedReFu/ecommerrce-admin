@@ -9,6 +9,9 @@ import { cn } from "@/lib/utils"
 const Dialog = DialogPrimitive.Root
 
 const DialogTrigger = DialogPrimitive.Trigger
+interface DialogPortalProps extends DialogPrimitive.DialogPortalProps {
+  className?: string;
+}
 
 const DialogPortal = ({
   className,

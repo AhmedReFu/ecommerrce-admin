@@ -20,7 +20,7 @@ const Command = React.forwardRef<
     )}
     {...props}
   />
-))
+));
 Command.displayName = CommandPrimitive.displayName
 
 interface CommandDialogProps extends DialogProps {}
