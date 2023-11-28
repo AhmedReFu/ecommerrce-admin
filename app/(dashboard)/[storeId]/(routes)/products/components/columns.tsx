@@ -48,7 +48,7 @@ export const columns: ColumnDef<ProductsColumns>[] = [
         {row.original.color}
         <div
           className="h-6 w-6 rounded-full border"
-          style={{ backgroundColor: `${row.original.color}` }}
+          style={{ backgroundColor: `${row.original.color.toString()}` }}
         />
       </div>
     ),
